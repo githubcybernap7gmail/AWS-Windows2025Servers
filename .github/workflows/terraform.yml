@@ -42,7 +42,7 @@
 #       with:
 #         cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
-name: 'Terraform-Windows2025Servers-APPLY-MAIN'
+name: 'Terraform-Windows2025Server-APPLY-MAIN'
 
 on:
   push:
@@ -52,7 +52,7 @@ on:
 
 jobs:
   terraform:
-    name: 'Terraform-Windows2025Servers-APPLY-MAIN'
+    name: 'Terraform-Windows2025Server-APPLY-MAIN'
     runs-on: ubuntu-latest
     environment: production
 
