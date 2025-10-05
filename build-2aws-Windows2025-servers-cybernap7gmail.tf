@@ -22,3 +22,4 @@ resource "aws_instance" "NapWindows2025Server2" {
     name = "NapWindows2025Server2"
    }
 }
+
